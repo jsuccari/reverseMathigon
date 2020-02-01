@@ -28,6 +28,12 @@ Every course consists of a few different components:
 The [shared directory](content/shared) contains biographies, glossary and assets
 used by multiple courses.
 
+Biographies: Mathematicians
+Glossary: Mathematical terms
+Assets: 
+
+
+
 Every course is divided into multiple steps, each with a unique ID. These IDs
 are used as function names in `functions.ts` when exporting the setup code
 for every section. Every function gets called with a `$step` argument, when
